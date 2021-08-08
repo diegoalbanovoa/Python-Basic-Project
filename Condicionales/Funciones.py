@@ -5,25 +5,25 @@
 # imprimir_mensaje()
 # imprimir_mensaje()
 # imprimir_mensaje()
-def conversacion(message):
+def conversation(message):
     print("Hola")
     print("Como estas")
     print(message)
     print("adios")
 
 
-opcion = int(input('Elege opcion(1,2,3): '))
-if opcion == 1:
+option = int(input('Elege opcion(1,2,3): '))
+if option == 1:
 
-    conversacion("Elegiste la Opcion 1")
+    conversation("Elegiste la Opcion 1")
 
-elif opcion == 2:
+elif option == 2:
 
-    conversacion("Elegiste la Opcion 2")
+    conversation("Elegiste la Opcion 2")
 
-elif opcion == 3:
+elif option == 3:
 
-    conversacion("Elegiste la Opcion 3")
+    conversation("Elegiste la Opcion 3")
 
 else:
     print("Elige un opcion correcta")

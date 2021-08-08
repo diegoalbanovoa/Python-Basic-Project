@@ -3,14 +3,14 @@ import random
 
 
 def run():
-    numero = random.randint(1, 100)
-    numero_elegido = int(input("Elige un numero del 1 al 100: "))
-    while numero_elegido != numero:
-        if numero_elegido < numero:
+    number = random.randint(1, 100)
+    chosen_number = int(input("Elige un numero del 1 al 100: "))
+    while chosen_number != number:
+        if chosen_number < number:
             print("Busca un numero mas grande")
         else:
             print("Busca un numero mas pequeño")
-        numero_elegido = int(input("Elige un numero del 1 al 100: "))
+        chosen_number = int(input("Elige un numero del 1 al 100: "))
         print("Ganaste!!!!!!")
 
 

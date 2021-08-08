@@ -1,9 +1,9 @@
 # Palindro: palabra que se lee igual al derecho y al reves
-def palindromo(palabra):
-    palabra = palabra.replace(' ','')
-    palabra = palabra.lower()
-    palabra_invertida = palabra[::-1]
-    if palabra == palabra_invertida:
+def palindrome(word):
+    word = word.replace(' ','')
+    word = word.lower()
+    inverted_word = word[::-1]
+    if word == inverted_word:
         return True
     else:
         return False
@@ -13,9 +13,9 @@ def palindromo(palabra):
 
 
 def run():
-    palabra = input("Escribe una palabra: ")
-    es_palindromo = palindromo(palabra)
-    if es_palindromo == True :
+    word = input("Escribe una palabra: ")
+    is_palindrome = palindrome(word)
+    if is_palindrome == True :
         print("Es palindromo")
     else:
         print("No es palindromo")

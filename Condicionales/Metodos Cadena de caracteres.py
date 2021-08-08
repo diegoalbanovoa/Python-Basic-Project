@@ -1,17 +1,17 @@
-nombre = input("¿Cual es tu nombre?: ")
+name = input("¿Cual es tu nombre?: ")
 # Colocar el texto en mayusculas
-nombre.upper()
+name.upper()
 # Coloca la primera letra en mayuscula
-nombre.capitalize()
+name.capitalize()
 # para cambiar el contenido
-nombre = nombre.capitalize()
+name = name.capitalize()
 # elmiminar espacios basura
-nombre = nombre.strip()
+name = name.strip()
 # cambiar las letras a minuscula
-nombre = nombre.lower()
+name = name.lower()
 # Para remplazar caracteres
-nombre = nombre.replace('o', 'a')
+name = name.replace('o', 'a')
 # Para acceder al caracter que quieras usas listas
-nombre[0]  # La primera letra
+name[0]  # La primera letra
 # Para saber la cantidad de caracter
-len(nombre)
+len(name)

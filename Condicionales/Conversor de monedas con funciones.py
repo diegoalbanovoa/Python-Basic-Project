@@ -15,13 +15,13 @@ Bienvenido al conversor de monedas 💕
 
 Elige una opción:  """
 
-opcion = int(input(menu))
+option = int(input(menu))
 
-if opcion == 1:
+if option == 1:
     conversor("Colombiano", 3875)
-elif opcion == 2:
+elif option == 2:
     conversor("Argentinos", 65)
-elif opcion == 3:
+elif option == 3:
     conversor("Mexicanos", 24)
 else:
     print("Ingrese una opcion correcta")

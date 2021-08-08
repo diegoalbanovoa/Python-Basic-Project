@@ -1,7 +1,7 @@
 # Un diccionario es un estructura de datos de llave valor
 # las {} hacen la funcion de definir diccionarios
 def run():
-    mi_diccionario = {
+    my_dictionary = {
         'llave1': 1,
         'llave2': 2,
         'llave3': 3,
@@ -11,7 +11,7 @@ def run():
     # print(mi_diccionario['llave2'])
     # print(mi_diccionario['llave3'])
 
-    poblacion_paises = {
+    countries_population = {
         'Argentina': 44938712,
         'Brasil': 210147125,
         'Colombia': 50372424
@@ -25,8 +25,8 @@ def run():
     #     print(pais)
 
     # Este for nos permite ver la clave con su respectivo valor
-    for pais, poblacion in poblacion_paises.items():
-        print(pais + ' tiene ' + str(poblacion) + ' habitantes')
+    for country, population in countries_population.items():
+        print(country + ' tiene ' + str(population) + ' habitantes')
 
 
 if __name__ == '__main__':

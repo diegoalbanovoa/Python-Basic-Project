@@ -1,26 +1,26 @@
 import random
 # Clas encargada de generar una contraseña al azar usando la clase Random
 
-def generar_contrasena():
-    mayusculas = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
-    minusculas = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
-    simbolos = ['!', '#', '$', '&', '/', '(', ')']
-    numeros = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
+def password_generator():
+    capital_letters = ['A', 'B', 'C', 'D', 'E', 'F', 'G']
+    lowercase = ['a', 'b', 'c', 'd', 'e', 'f', 'g']
+    symbols = ['!', '#', '$', '&', '/', '(', ')']
+    numbers = ['1', '2', '3', '4', '5', '6', '7', '8', '9', '0']
 
-    caracteres = mayusculas + minusculas + simbolos + numeros
+    characters = capital_letters + lowercase + symbols + numbers
 
-    contrasena = []
+    password = []
 
     for i in range(15):
-        caracter_random = random.choice(caracteres)
-        contrasena.append(caracter_random)
+        character_random = random.choice(characters)
+        password.append(character_random)
 
-    contrasena = "".join(contrasena)
-    return contrasena
+    password = "".join(password)
+    return password
 
 
 def run():
-    contrasena = generar_contrasena()
+    contrasena = password_generator()
     print('Tu nueva contraseña es: ' + contrasena)
 
 
